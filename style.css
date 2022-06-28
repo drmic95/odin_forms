@@ -1,0 +1,52 @@
+img {
+  height: 100vh;
+  width: 412.2px; /*
+  549.6 x 824 - 80 % of original
+  412.2 x 618 - 60 % of original
+  274.8 x 412 - 40 % of original
+  171.75 x 257.5 - 25 % of original
+  */
+}
+
+body {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  height: 900px;
+  width: 900px;
+  padding: 0;
+  margin: 0;
+  column-gap: 10px;
+}
+
+.imagine {
+  height: 100%;
+  padding-right: 30px;
+  flex: auto;
+}
+.heading {
+  padding-top: 50px;
+  font-size: 1.2rem;
+  flex: auto;
+  width: 70%;
+}
+.form {
+  flex: auto;
+  width: 400px;
+  height: 400px;
+}
+.btnClass {
+  flex: auto;
+}
+@media (max-width: 500px) {
+  img {
+    height: 100vh;
+    width: 171.758px;
+  }
+  .heading {
+    font-size: 0.7rem;
+  }
+} ;
