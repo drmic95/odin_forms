@@ -41,6 +41,35 @@ body {
 .btnClass {
   flex: auto;
 }
+
+#odinLogo {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  z-index: 2;
+}
+.bacLogoColor {
+  background-color: #330000;
+  height: 100px;
+  width: 412px;
+  opacity: 0.4;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  z-index: 1;
+}
+.odin {
+  font-family: cursive;
+  position: absolute;
+  top: 80px;
+  left: 170px;
+  z-index: 2;
+  color: white;
+  font-size: 5rem;
+}
+
 @media (max-width: 500px) {
   img {
     height: 100vh;
